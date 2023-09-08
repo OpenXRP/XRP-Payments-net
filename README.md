@@ -41,7 +41,7 @@ A C# Payments library for the XRP Ledger. Manages all security, boilerplate code
 Grab the latest version off [NuGet](https://www.nuget.org/packages/XRPNet.Ledger)
 
 ```sh
-dotnet add package XRPNet.Ledger
+dotnet add package XRP.Payments
 ```
 
 ## Usage
