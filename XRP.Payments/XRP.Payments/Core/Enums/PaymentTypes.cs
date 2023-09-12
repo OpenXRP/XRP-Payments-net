@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace XRP.Payments.Core.Enums
+﻿namespace XRP.Payments.Core.Enums
 {
-    internal class PaymentTypes
+    public enum PaymentTypes
     {
+        DirectPayment = 4,
+        CrossCurrencySwap = 8,
+        Escrow = 10,
+        Checks = 11,
+        PartialPayment = 12,
+        PaymentChannels = 21,
+        Streaming = 22,
     }
 }
